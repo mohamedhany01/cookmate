@@ -1,3 +1,4 @@
+import AddNewRecipe from './components/core/addReciepe/add';
 import Hero from './components/core/home/hero/hero';
 import Pagination from './components/core/home/pagination';
 import Filter from './components/core/home/recipes/filter';
@@ -7,9 +8,14 @@ export default function Index() {
   return (
     <main className='bg-mate-400'>
       <Navbar></Navbar>
-      <Hero></Hero>
+
+      {/* Home */}
+      {/* <Hero></Hero>
       <Filter></Filter>
-      <Pagination></Pagination>
+      <Pagination></Pagination> */}
+
+      {/* Add new recipe */}
+      <AddNewRecipe></AddNewRecipe>
     </main>
   );
 }
