@@ -187,7 +187,7 @@ export default function Register() {
                     </svg>
                   </button>
                 </div>
-                <a href='/login' className='my-5 font-bold'>
+                <a href='/pages/auth/login' className='my-5 font-bold'>
                   Already have an account?
                 </a>
               </div>
