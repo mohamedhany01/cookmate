@@ -1,4 +1,8 @@
-import Image from 'next/image';
+import { MateRecipe } from './recipe';
+import r1 from '@/public/images/recipes/1.webp';
+import r2 from '@/public/images/recipes/2.webp';
+import r3 from '@/public/images/recipes/3.webp';
+import r4 from '@/public/images/recipes/4.webp';
 
 // https://flowbite.com/docs/components/gallery/#gallery-with-tag-filters
 export default function Filter() {
@@ -42,115 +46,16 @@ export default function Filter() {
           Chinese
         </button>
       </div>
-      <div className='grid grid-cols-2 gap-4 md:grid-cols-3'>
-        <div>
-          <Image
-            className='h-auto max-w-full rounded-lg'
-            width={500}
-            height={500}
-            src='https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg'
-            alt=''
-          />
-        </div>
-        <div>
-          <Image
-            className='h-auto max-w-full rounded-lg'
-            width={500}
-            height={500}
-            src='https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg'
-            alt=''
-          />
-        </div>
-        <div>
-          <Image
-            className='h-auto max-w-full rounded-lg'
-            width={500}
-            height={500}
-            src='https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg'
-            alt=''
-          />
-        </div>
-        <div>
-          <Image
-            className='h-auto max-w-full rounded-lg'
-            width={500}
-            height={500}
-            src='https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg'
-            alt=''
-          />
-        </div>
-        <div>
-          <Image
-            className='h-auto max-w-full rounded-lg'
-            width={500}
-            height={500}
-            src='https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg'
-            alt=''
-          />
-        </div>
-        <div>
-          <Image
-            className='h-auto max-w-full rounded-lg'
-            width={500}
-            height={500}
-            src='https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg'
-            alt=''
-          />
-        </div>
-        <div>
-          <Image
-            className='h-auto max-w-full rounded-lg'
-            width={500}
-            height={500}
-            src='https://flowbite.s3.amazonaws.com/docs/gallery/square/image-6.jpg'
-            alt=''
-          />
-        </div>
-        <div>
-          <Image
-            className='h-auto max-w-full rounded-lg'
-            width={500}
-            height={500}
-            src='https://flowbite.s3.amazonaws.com/docs/gallery/square/image-7.jpg'
-            alt=''
-          />
-        </div>
-        <div>
-          <Image
-            className='h-auto max-w-full rounded-lg'
-            width={500}
-            height={500}
-            src='https://flowbite.s3.amazonaws.com/docs/gallery/square/image-8.jpg'
-            alt=''
-          />
-        </div>
-        <div>
-          <Image
-            className='h-auto max-w-full rounded-lg'
-            width={500}
-            height={500}
-            src='https://flowbite.s3.amazonaws.com/docs/gallery/square/image-9.jpg'
-            alt=''
-          />
-        </div>
-        <div>
-          <Image
-            className='h-auto max-w-full rounded-lg'
-            width={500}
-            height={500}
-            src='https://flowbite.s3.amazonaws.com/docs/gallery/square/image-10.jpg'
-            alt=''
-          />
-        </div>
-        <div>
-          <Image
-            className='h-auto max-w-full rounded-lg'
-            width={500}
-            height={500}
-            src='https://flowbite.s3.amazonaws.com/docs/gallery/square/image-11.jpg'
-            alt=''
-          />
-        </div>
+      <div className='grid grid-cols-2 gap-4 md:grid-cols-4'>
+        <MateRecipe name='Classic Greek Salad' image={r1} time={15} rating={4.5}/>
+        <MateRecipe name='Crunchy Nut Coleslaw' image={r2} time={15} rating={3.5}/>
+        <MateRecipe
+          name='Shrimp Chicken Andouille Jambalaya'
+          image={r3}
+          time={15}
+          rating={3.0}
+        />
+        <MateRecipe name='Barbecue Chicken Jollof Rice' image={r4} time={15} rating={4.5}/>
       </div>
     </div>
   );
