@@ -53,7 +53,7 @@ export default function Navbar() {
             </li>
             <li>
               <a
-                href='#'
+                href='/pages/app/new-recipe'
                 className='block rounded-full  bg-mate-green px-8 py-2 text-mate-white'
                 aria-current='page'
               >

@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import potImg from '@/public/images/pot.webp';
 
-export default function AddNewRecipe() {
+export default function NewRecipe() {
   return (
     <>
       <div className='mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4'>
