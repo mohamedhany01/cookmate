@@ -81,7 +81,7 @@ export default function ForgetPassword() {
                       </li>
                       <li className='mt-4'>
                         <div className='inline text-mate-black'>
-                          If you don't receive an email within a few minutes,
+                          If you don&apos;t receive an email within a few minutes,
                           please check your spam folder.
                         </div>
                       </li>
