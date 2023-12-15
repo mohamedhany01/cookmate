@@ -47,7 +47,7 @@ export default function Register() {
                   <h1 className='mb-5 flex flex-col text-4xl font-medium'>
                     Join the CookMate <br /> Community!
                   </h1>
-                  <p className='text-xl mb-4'>Create your account</p>
+                  <p className='mb-4 text-xl'>Create your account</p>
                   {message && message.type === 'success' ? (
                     <div
                       className='mb-4 flex items-center rounded-lg border border-green-300 bg-green-50 p-4 text-sm text-green-800'

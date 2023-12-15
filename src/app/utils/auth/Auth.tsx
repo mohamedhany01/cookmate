@@ -8,8 +8,7 @@ export async function registerNewUser(user: NewUser) {
     password: user.password.trim(),
   };
 
-  console.log(data);
-  const res = await axios.post(`${process.env.BASE_URL}/api/user`, data, {
+  const res = await axios.post('/api/user', data, {
     headers: {
       'Content-Type': 'application/json',
     },

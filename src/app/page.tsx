@@ -15,7 +15,7 @@ export default function Index() {
       <Pagination></Pagination> */}
 
       {/* Add new recipe */}
-      <AddNewRecipe></AddNewRecipe>
+      {/* <AddNewRecipe></AddNewRecipe> */}
     </main>
   );
 }
