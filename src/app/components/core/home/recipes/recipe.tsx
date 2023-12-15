@@ -5,7 +5,7 @@ type Recipe = {
   name: string;
   time: number;
   image: any;
-  rating: number
+  rating: number;
 };
 
 export const MateRecipe = (props: PropsWithChildren<Recipe>) => {

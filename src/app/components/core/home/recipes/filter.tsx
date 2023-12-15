@@ -47,15 +47,30 @@ export default function Filter() {
         </button>
       </div>
       <div className='grid grid-cols-2 gap-4 md:grid-cols-4'>
-        <MateRecipe name='Classic Greek Salad' image={r1} time={15} rating={4.5}/>
-        <MateRecipe name='Crunchy Nut Coleslaw' image={r2} time={15} rating={3.5}/>
+        <MateRecipe
+          name='Classic Greek Salad'
+          image={r1}
+          time={15}
+          rating={4.5}
+        />
+        <MateRecipe
+          name='Crunchy Nut Coleslaw'
+          image={r2}
+          time={15}
+          rating={3.5}
+        />
         <MateRecipe
           name='Shrimp Chicken Andouille Jambalaya'
           image={r3}
           time={15}
           rating={3.0}
         />
-        <MateRecipe name='Barbecue Chicken Jollof Rice' image={r4} time={15} rating={4.5}/>
+        <MateRecipe
+          name='Barbecue Chicken Jollof Rice'
+          image={r4}
+          time={15}
+          rating={4.5}
+        />
       </div>
     </div>
   );
