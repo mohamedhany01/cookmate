@@ -9,7 +9,7 @@ export async function registerNewUser(user: NewUser) {
   };
 
   console.log(data);
-  const res = await axios.post('http://localhost:3000/api/user', data, {
+  const res = await axios.post(`${process.env.BASE_URL}/api/user`, data, {
     headers: {
       'Content-Type': 'application/json',
     },
