@@ -1,9 +1,11 @@
 import Image from 'next/image';
 import potImg from '@/public/images/pot.webp';
+import Navbar from '@/src/app/components/core/navbar';
 
 export default function NewRecipe() {
   return (
     <>
+      <Navbar />
       <div className='mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4'>
         <h1 className='text-4xl font-bold'>
           Share Your Recipe with the <br />
