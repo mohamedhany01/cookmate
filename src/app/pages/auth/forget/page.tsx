@@ -28,7 +28,7 @@ export default function ForgetPassword() {
                     Forgot Your Password?
                   </h1>
                   <p className='mb-4 text-lg'>
-                    Don't worry you can reset it easily, enter the email
+                    Don&apos;t worry you can reset it easily, enter the email
                     associated with your account to reset your password.
                   </p>
                 </div>
